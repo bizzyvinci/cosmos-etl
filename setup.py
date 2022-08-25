@@ -18,7 +18,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/bizzyvinci/cosmos-etl',
-    packages=['cosmosetl'],
+    packages=find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
