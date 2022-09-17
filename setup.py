@@ -11,7 +11,7 @@ long_description = read('README.md') if os.path.isfile("README.md") else ""
 
 setup(
     name='cosmos-etl',
-    version='0.0.1',
+    version='0.0.2',
     author='Bisola Olasehinde',
     author_email='horlasehinde@gmail.com',
     description='Tools for exporting Cosmos blockchain data to CSV or JSON',
