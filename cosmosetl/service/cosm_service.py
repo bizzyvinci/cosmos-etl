@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
 from cosmosetl.service.graph_operations import GraphOperations, OutOfBoundsError, Point
-from cosmosetl.utils import get_block, get_genesis_block, get_latest_block, block_time_to_timestamp
+from cosmosetl.utils import  block_time_to_timestamp
+from cosmosetl.get_block import get_block, get_genesis_block, get_latest_block
 
 
 class CosmService(object):
