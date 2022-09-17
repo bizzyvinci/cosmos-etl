@@ -2,7 +2,6 @@ import base64
 import itertools
 import re
 from datetime import datetime
-from cosmosetl.utils import rpc_response_to_result
 from cosmosetl.mappers.block_mapper import CosmBlockMapper
 
 
