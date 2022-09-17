@@ -6,4 +6,4 @@ class CosmBlock:
         self.data_hash = None
         self.proposer = None
         self.num_txs = None
-        self.timestamp = None
+        self.time = None

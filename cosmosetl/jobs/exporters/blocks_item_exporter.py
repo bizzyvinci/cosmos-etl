@@ -7,7 +7,7 @@ BLOCK_FIELDS_TO_EXPORT = [
     'data_hash',
     'proposer',
     'num_txs',
-    'timestamp'
+    'time'
 ]
 
 

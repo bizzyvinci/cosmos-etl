@@ -10,7 +10,7 @@ class CosmBlockMapper:
         block.data_hash = json_dict['block']['header'].get('data_hash')
         block.proposer = json_dict['block']['header'].get('proposer_address')
         block.num_txs = len(json_dict['block']['data'].get('txs', []))
-        block.timestamp = json_dict['block']['header'].get('time')
+        block.time = json_dict['block']['header'].get('time')
         return block
     
     def block_to_dict(self, block):
@@ -22,5 +22,5 @@ class CosmBlockMapper:
             'data_hash': block.data_hash,
             'proposer': block.proposer,
             'num_txs': block.num_txs,
-            'timestamp': block.timestamp,
+            'time': block.time,
         }
